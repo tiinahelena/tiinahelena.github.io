@@ -1,0 +1,8 @@
+body {background-color: palegreen; color: darkslategray }
+h1 {font-size: 20px }
+h2 {font-size: 18px }
+p {background-color: lavender; color: darkblue; font-size: 16px; }
+ol {list-style-type: lower-alpha }
+ul {list-style-type: square }
+div {border: dotted 2px }
+.motto {height: 200px; width: 200px }
