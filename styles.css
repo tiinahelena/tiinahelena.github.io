@@ -1,8 +1,43 @@
-body {background-color: palegreen; color: darkslategray }
-h1 {font-size: 20px }
-h2 {font-size: 18px }
-p {background-color: lavender; color: darkblue; font-size: 16px; }
-ol {list-style-type: lower-alpha }
-ul {list-style-type: square }
-div {border: dotted 2px }
-.motto {height: 200px; width: 200px }
+body {
+	background-color: palegreen; 
+	color: darkslategray;
+}
+h1 {
+	font-family: Garamond;
+	font-size: 20px; 
+	padding: 10px;
+	margin: 15px 50px;
+}
+h2 {
+	border-style: double; 
+	font-family: Garamond;
+	font-size: 18px; 
+	text-align: center;
+}
+p {
+	background-color: lavender; 
+	color: darkblue;
+	font-family: Helvetica; 
+	font-size: 16px; 
+}
+ol {
+	list-style-type: lower-alpha; 
+}
+ul {
+	list-style-type: square; 
+}
+div {border: dotted 2px; }
+.motto {
+	height: 200px; 
+	width: 200px; 
+}
+.drawings {
+	background-color: #CACAF0; 
+	border: none;
+	width: 50%; 
+	margin: auto;
+}
+a {
+	background-color: #EDD7F7; 
+	border-radius: 15px; 
+}
