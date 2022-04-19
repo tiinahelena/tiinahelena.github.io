@@ -1,5 +1,5 @@
 body {
-	background-color: palegreen; 
+	background-color: #b5ffb8; 
 	color: darkslategray;
 }
 h1 {
@@ -12,10 +12,13 @@ h2 {
 	border-style: double; 
 	font-family: Garamond;
 	font-size: 18px; 
-	text-align: center;
+}
+h3 {
+	font-family: Garamond;
+	font-size: 16px;
 }
 p {
-	background-color: lavender; 
+	background-color: #decdf7; 
 	color: darkblue;
 	font-family: Helvetica; 
 	font-size: 16px; 
@@ -28,7 +31,10 @@ ul {
 }
 div {border: dotted 2px; }
 .motto {
+	font-family: "French Script MT", Arial;
+	font-size: 24px;
 	height: 200px; 
+	padding-top: 20px;
 	width: 200px; 
 }
 .drawings {
@@ -40,4 +46,35 @@ div {border: dotted 2px; }
 a {
 	background-color: #EDD7F7; 
 	border-radius: 15px; 
+}
+header { 
+	background-color: #c4c0d1;
+	color: #333300;
+	margin: auto;
+	width: 70%;
+}
+nav { 
+	background-color: #FFFFFF;
+	margin: auto;
+	width: 70%;
+}
+section { 
+	background-color: #FFFFFF;
+	margin: auto;
+	width: 70%;
+}
+article {
+	background-color: #FFFFCC;
+	width: 50%;
+}
+aside {
+	background-color: #054d1e;
+	color: #FFFFFF;
+	width: 20%;
+	float: right;
+}
+footer {
+	background-color: #99FF66;
+	margin: auto;
+	width: 70%;
 }
